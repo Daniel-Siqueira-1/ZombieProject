@@ -1,0 +1,29 @@
+{
+	"name": "bridgenet2-stresstest",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"Packages": {
+				"$className": "Folder",
+				"$path": "Packages",
+				"bridgenet2": {
+					"$path": "src"
+				}
+			},
+			"StressTestValue": {
+				"$className": "StringValue",
+				"$properties": {
+					"Value": "BridgeNet2"
+				}
+			}
+		},
+		"StarterPlayer": {
+			"StarterPlayerScripts": {
+				"$path": "testing/stress/client"
+			}
+		},
+		"ServerScriptService": {
+			"$path": "testing/stress/server"
+		}
+	}
+}

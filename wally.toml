@@ -1,0 +1,10 @@
+[package]
+name = "kasti/zombieproject"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+BridgeNet2 = "ffrostflame/bridgenet2@0.1.0"
+Promise = "evaera/promise@4.0.0"
+Knit = "sleitnick/knit@^1.5"
