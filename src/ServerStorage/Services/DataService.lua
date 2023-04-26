@@ -12,4 +12,8 @@ function DataService:Test(Player: Player): ()
     print(Player)
 end
 
+function DataService:KnitInit()
+
+end
+
 return DataService

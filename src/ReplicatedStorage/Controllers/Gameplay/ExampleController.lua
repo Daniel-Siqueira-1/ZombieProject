@@ -1,14 +1,13 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Knit = require(ReplicatedStorage.Packages.Knit)
-print("Creating controller")
+
 local DataController = Knit.CreateController({
     Name = "DataController"
 })
 
 function DataController.KnitStart()
-    print("TEST")
-    local DataService = Knit.GetService("DataService")
-    DataService:Test()
+    local MyNewService = Knit.GetService("MyNewService")
+    MyNewService:YourClientMethod()
 end
 
 return DataController
